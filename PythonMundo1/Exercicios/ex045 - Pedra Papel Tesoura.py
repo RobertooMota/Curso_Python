@@ -9,7 +9,6 @@ print('\n')
 print('Machine      você')
 print(escolhaMachine[escolhaAtual] + ' ---> ' + escolhaHumano)
 
-
 if escolhaMachine[escolhaAtual] == 'pedra':
     if escolhaHumano == 'pedra':
         print('Empate!')
@@ -17,6 +16,7 @@ if escolhaMachine[escolhaAtual] == 'pedra':
         print('Voce perdeu!!! BLAAAAAAAAAAAAAAAA')
     else:
         print('Voce ganhou... :@ ')
+
 
 elif escolhaMachine[escolhaAtual] == 'tesoura':
     if escolhaHumano == 'pedra':
